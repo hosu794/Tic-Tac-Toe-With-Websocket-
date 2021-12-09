@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="user-id">
+        
+    </div>
+
+    <div class="container">
+        <div class="box box-1" onclick="aktualizuj('1')"></div>
+        <div class="box box-2" onclick="aktualizuj('2')"></div>
+        <div class="box box-3" onclick="aktualizuj('3')"></div>
+    </div>   
+    <div class="container">
+        <div class="box box-4" onclick="aktualizuj('4')"></div>
+        <div class="box box-5" onclick="aktualizuj('5')"></div>
+        <div class="box box-6" onclick="aktualizuj('6')"></div>
+    </div>   
+    <div class="container">
+        <div class="box box-7" onclick="aktualizuj('7')"></div>
+        <div class="box box-8" onclick="aktualizuj('8')"></div>
+        <div class="box box-9" onclick="aktualizuj('9')"></div>
+    </div>   
+
+
+    <button id="clear-button" disabled onclick="wyczysc()">Wyczyść</button>
+
+    <div id="gracz1">Gracz1: 0</div>
+    <div id="gracz2">Gracz2: 0</div>
+
+    <div id="alert"></div>
+    <script src="https://cdn.socket.io/4.4.0/socket.io.min.js" integrity="sha384-1fOn6VtTq3PWwfsOrk45LnYcGosJwzMHv+Xh/Jx5303FVOXzEnw0EpLv30mtjmlj" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>

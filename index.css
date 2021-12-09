@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(107, 103, 103);
+}
+
+h1 {
+    padding: 100;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
+#alert {
+    color: red;
+}
